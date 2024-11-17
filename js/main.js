@@ -35,18 +35,22 @@
                 margin:0,
                 responsiveClass:true,
                 nav:true,
+                dots:true,
                 responsive:{
                     0:{
                         items:1,
-                        nav:false
+                        nav:true,
+                        dots:true,
                     },
                     600:{
                         items:2,
-                        nav:false
+                        nav:false,
+                        dots:true,
                     },
                     1000:{
                         items:3,
                         nav:true,
+                        dots:false,
                         loop:true
                     }
                 }
