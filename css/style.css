@@ -718,6 +718,27 @@ body {
   padding-top: 3px !important;
   padding-bottom: 3px !important;
 }
+.gtco-news .owl-dots {
+  text-align: center;
+}
+
+.gtco-news .owl-dots span {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+  border: 2px solid #01e6f8;
+  margin: 0 5px;
+}
+
+.gtco-news .owl-dots .active span {
+  background: #A2F3FC;
+  border: none;
+  height: 12px;
+  width: 12px;
+}
 
 #gtco-footer {
   padding-bottom: 20px;
